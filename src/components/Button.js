@@ -23,7 +23,7 @@ const styles = {
     paddingBottom: 10
   },
   buttonStyle: {
-    height: 0.11 * SCREEN_HEIGHT,
+    height: 0.1 * SCREEN_HEIGHT,
     width: 0.9 * SCREEN_WIDTH,
     backgroundColor: "#ffff",
     borderRadius: 10,

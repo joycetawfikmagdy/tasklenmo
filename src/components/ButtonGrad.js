@@ -20,8 +20,8 @@ const styles = {
     alignSelf: "center",
     fontSize: 16,
     fontWeight: "900",
-    paddingTop: 10,
-    paddingBottom: 10
+    paddingTop: 20,
+    paddingBottom: 20
   },
   buttonStyle: {
     height: 0.11 * SCREEN_HEIGHT,

@@ -1,10 +1,11 @@
+import LinearGradient from "react-native-linear-gradient";
 import React from "react";
 import { Text, TouchableOpacity, Dimensions } from "react-native";
 
 const SCREEN_WIDTH = Dimensions.get("window").width;
 const SCREEN_HEIGHT = Dimensions.get("window").height;
 
-const Button = ({ onPress, children }) => {
+const ButtonGrad = ({ onPress, children }) => {
   const { buttonStyle, textStyle } = styles;
   return (
     <TouchableOpacity onPress={onPress} style={buttonStyle}>
@@ -15,17 +16,17 @@ const Button = ({ onPress, children }) => {
 
 const styles = {
   textStyle: {
-    color: "#DC143C",
+    color: "#ffff",
     alignSelf: "center",
     fontSize: 16,
     fontWeight: "900",
-    paddingTop: 20,
+    paddingTop: 10,
     paddingBottom: 10
   },
   buttonStyle: {
     height: 0.11 * SCREEN_HEIGHT,
     width: 0.9 * SCREEN_WIDTH,
-    backgroundColor: "#ffff",
+    backgroundColor: "#0000FF",
     borderRadius: 10,
     shadowColor: "rgba(46, 229, 157, 0.4)",
     shadowOpacity: 1.5,
@@ -36,4 +37,4 @@ const styles = {
   }
 };
 
-export { Button };
+export { ButtonGrad };

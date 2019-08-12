@@ -33,7 +33,7 @@ const styles = {
     marginRight: 5,
     marginTop: 10,
     height: 0.2 * SCREEN_HEIGHT,
-    width: 0.2 * SCREEN_WIDTH ,
+    width: 0.43 * SCREEN_WIDTH ,
   },
   margined: {
     borderRadius: 10,

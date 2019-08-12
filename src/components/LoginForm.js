@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import { Card } from './Card';
-import { CardSection } from './CardSection';
-import { Input } from './input';
 import { ButtonGrad } from './ButtonGrad';
 import { Button} from './Button';
 import { connect } from 'react-redux';
 import { Text, ScrollView, View, Image, Dimensions} from 'react-native';
-import { Spinner } from './Spinner';
 import Slider from "react-native-slider";
 import Icon from 'react-native-vector-icons/FontAwesome'
 
@@ -111,8 +108,10 @@ class LoginForm extends Component {
         
         <View style={{flexDirection: 'column',justifyContent: 'flex-start'}}>
         <Text style={styles.purpletext}>Payment Period</Text>
-        <Text style={{fontSize:10,alignSelf:'flex-start'}}>month</Text>
+        <View style={{flexDirection: 'row',justifyContent: 'flex-start'}}>
         <Text style={styles.blacktext}>1</Text>
+        <Text style={{fontSize:10,marginBottom:-1}}>month</Text>
+        </View>
         </View>
         </View>
         

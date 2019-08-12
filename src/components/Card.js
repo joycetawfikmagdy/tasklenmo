@@ -32,12 +32,12 @@ const styles = {
     marginLeft: 5,
     marginRight: 5,
     marginTop: 10,
-    height: 0.2 * SCREEN_HEIGHT,
-    width: 0.43 * SCREEN_WIDTH ,
+    height: 0.11 * SCREEN_HEIGHT,
+    width: 0.45 * SCREEN_WIDTH ,
   },
   margined: {
     borderRadius: 10,
-    height: 0.2 * SCREEN_HEIGHT,
+    height: 0.11 * SCREEN_HEIGHT,
     width: 0.01 * SCREEN_WIDTH ,
   }
 };

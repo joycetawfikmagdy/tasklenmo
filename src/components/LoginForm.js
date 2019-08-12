@@ -222,11 +222,11 @@ class LoginForm extends Component {
               <Text style={styles.greytext}>100 %</Text>
             </View>
 
-            <View style={{ alignSelf: "center" }}>
+            <View style={{ alignSelf: "center" , marginBottom: 20,marginTop: 30}}>
               <Button onPress={this.onButtonPress()}>Dismiss</Button>
             </View>
 
-            <View style={{ alignSelf: "center" }}>
+            <View style={{ alignSelf: "center" , marginBottom: 20}}>
               <ButtonGrad onPress={this.onButtonPress()}>Make Offer</ButtonGrad>
             </View>
           </View>

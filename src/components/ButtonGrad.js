@@ -24,11 +24,11 @@ const styles = {
     paddingBottom: 20
   },
   buttonStyle: {
-    height: 0.11 * SCREEN_HEIGHT,
+    height: 0.1 * SCREEN_HEIGHT,
     width: 0.9 * SCREEN_WIDTH,
     backgroundColor: "#0000FF",
     borderRadius: 10,
-    shadowColor: "rgba(46, 229, 157, 0.4)",
+    shadowColor: "#d3d3d3",
     shadowOpacity: 1.5,
     elevation: 15,
     shadowRadius: 20,
